@@ -1,0 +1,20 @@
+<template>
+	<h3 class="text-center">
+		{{ pageTitle }}
+	</h3>
+</template>
+
+<script>
+export default {
+  name: 'comment',
+  data () {
+    return {
+      pageTitle: '这是留言页面...'
+    }
+  }
+}
+</script>
+
+<style>
+
+</style>
